@@ -1,0 +1,120 @@
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50%;
+}
+
+header {
+	width: 100%;
+	height: 25%;
+	background-color: skyblue;
+}
+
+.box1text {
+	position: absolute;
+	left: 40%;
+	top: 50px;
+	font-size: 40px;
+}
+
+.box1inner {
+	position: absolute;
+	left: 5%;
+	top: 100px;
+	padding: 5px;
+	width: 25%;
+	font-size: 40px;
+	background-color: white;
+}
+
+.box2 {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 100%;
+	background-color: orangered;
+}
+
+.boxes345 {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 100%;
+	background-color: lightgray;
+}
+
+
+.box3 {
+	display: flex;
+	flex-direction: row;
+    height: 20%;
+    width: 100%;
+    background-color: limegreen;
+}
+
+.boxes45 {
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+	width: 100%;
+	background-color: lightgreen;
+}
+
+
+.box4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 57%;
+	background-color: lightcoral;
+}
+
+.box5 {
+	display: flex;
+	flex-direction: column;
+	width: 43%;
+	background-color: orange;
+}
+
+footer {
+	width: 100%;
+	height: 25%;
+	background-color: skyblue;
+}
+
+.box6text {
+	position: absolute;
+	left: 40%;
+	font-size: 40px;
+}
+
+.box6inner {
+	background-color: white;
+	float: right;
+	font-size: 30px;
+	padding: 5px;
+	width: 25%;
+	margin: 20px;
+	margin-top: 50px;
+}
+
+p {
+	display: flex;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+
+a {
+	display: flex;
+	font-size: 30px;
+	padding: 10px;	
+}
