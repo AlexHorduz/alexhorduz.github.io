@@ -55,9 +55,10 @@ header {
 .box3 {
 	display: flex;
 	flex-direction: row;
-    height: 20%;
-    width: 100%;
-    background-color: limegreen;
+	align-items: center;
+	height: 20%;
+	width: 100%;
+	background-color: limegreen;
 }
 
 .boxes45 {
